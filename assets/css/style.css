@@ -1,0 +1,110 @@
+/*initialisation*/
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+/*pour l'entête*/
+
+#txtheader {
+    margin-top: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.navigation{
+    background-color: black;
+    font-size: 100%;
+}
+
+.navigation ul{
+    display: flex;
+}
+
+.navigation ul li{  
+    list-style: none;
+    margin-right: 10px;
+}
+
+.navigation a{
+    display: block; 
+    color: white; 
+    padding: 10px 0px 10px 0px;
+}
+
+#logo1{
+    width: 300px;
+    margin: 10px;
+}
+
+#leflex1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#DIVlogo{
+    width: 50%;
+}
+
+/*pour les 2 menus de navigation*/
+
+.ligne{
+    color: whitesmoke;
+    width: 100%;
+}
+
+#promo{
+    width: 100%;
+}
+
+#DIVsection1{
+    width: 80%; 
+}
+
+#DIVaside1{
+    background-color: grey;
+    width: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;   
+}
+
+#aside1{
+    height: 100%;
+}
+
+#special{
+    margin-left: 0px;
+}
+
+#leflex2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*pour l'intérieur du body*/
+
+h1,h2,p,a,form,legend,title,select,textarea,input,label {
+    margin: 10px;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 768px) {
+    #DIVaside1 {
+      display: none;
+    }
+    #DIVsection1{
+        width: 100%;  
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #txtheader {
+      display: none;
+    }
+    .CENTERnav,h1{
+        justify-content: center;
+    }  
+}
+
