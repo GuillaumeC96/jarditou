@@ -5,36 +5,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="img/images/Logo_Afpa.ico">
-  <title>Contact Jarditou</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/img/images/Logo_Afpa.ico">
+  <title>Contact</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
   <header>
     <!-- Rajouter le paramtre "title" à chaque lien et image -->
 
-    <div id="leflex1">
-      <div id="DIVlogo">
-        <img id="logo1" src="img/images/jarditou_logo.jpg" alt="Logo">
+    <div id="leflex1_contact">
+      <div id="DIVlogo_contact">
+        <img id="logo1_contact" src="assets/img/images/jarditou_logo.jpg" alt="Logo">
       </div>
-      <div id="DIVtxt">
-        <p id="txtheader">Tout le jardin</p>
+      <div id="DIVtxt_contact">
+        <p id="txtheader_contact">Tout le jardin</p>
       </div>
     </div>
   </header>
   <nav class="navigation">
     <ul class="CENTERnav">
-      <li><a href="index.html" title="Accueil">Accueil</a></li>
-      <li><a href="tableau.html" title="Tableau">Tableau</a></li>
-      <li><a href="contact.html" title="Contact">Contact</a></li>
+      <li><a class="NAV" href="index.html" title="Accueil">Accueil</a></li>
+      <li><a class="NAV" href="tableau.html" title="Tableau">Tableau</a></li>
+      <li><a class="NAV" href="contact.html" title="Contact">Contact</a></li>
     </ul>
   </nav>
 
-  <img id="promo" class="fit-picture" src="img/images/promotion.jpg" alt="Publicité">
 
-  <div id="leflex2">
-    <div id="DIVsection1">
+  <img id="promo_contact" class="fit-picture" src="assets/img/images/promotion.jpg" alt="Publicité">
+
+  <div id="leflex2_contact">
+    <div id="DIVsection1_contact">
       <section>
 
         <h1>Contact</h1>
@@ -47,7 +48,9 @@
         <form action="http://bienvu.net/script.php" method="get" id="formulaire_contact">
 
           <fieldset>
-            <legend>Coordonnées</legend>
+            <legend>
+              <h2>Coordonnées</h2>
+            </legend>
             <label for="nom">Votre nom* : </label><input id="nom" type="text" required
               title="Entrez votre nom (que des caractères entre a et z)">
 
@@ -95,7 +98,7 @@
             <legend>Votre demande</legend>
 
             <label for="sujet">Sujet* : </label>
-            <select id="sujet" name="Veuillez sélectionner un sujet">
+            <select id="sujet_contact" name="Veuillez sélectionner un sujet">
               <option value="Veuillez sélectionner un sujet" selected>Veuillez sélectionner un sujet</option>
               <option value="Mes commandes">Mes commandes</option>
               <option value="Question sur un produit">Question sur un produit</option>
@@ -106,7 +109,7 @@
             <br>
 
             <label for="question">Votre question* : </label><br>
-            <textarea id="question" name="Votre question" rows="2" cols="50"></textarea>
+            <textarea id="question_contact" name="Votre question" rows="2" cols="50"></textarea>
 
             <br>
           </fieldset>
@@ -117,26 +120,26 @@
           ce formulaire
 
           <br><br>
-  
+
           <input type="submit" value="Envoyer">
           <input type="reset" value="Annuler">
-         
+
 
         </form>
 
       </section>
     </div>
 
-    <div id="DIVaside1">
-      <aside id="aside1"><a id="special">[COLONNE DROITE]</a></aside>
+    <div id="DIVaside1_contact">
+      <aside id="aside1_contact"><a id="special_contact">[COLONNE DROITE]</a></aside>
     </div>
   </div>
 
   <footer class="navigation">
     <ul class="CENTERnav">
-      <li><a href="index.html" title="Accueil">Accueil</a></li>
-      <li><a href="tableau.html" title="Tableau">Tableau</a></li>
-      <li><a href="contact.html" title="Contact">Contact</a></li>
+      <li><a class="NAV" href="mentions_legales.html" title="Mentions légales">Mentions légales</a></li>
+      <li><a class="NAV" href="horaires.html" title="Horaires">Horaires</a></li>
+      <li><a class="NAV" href="plan_du_site.html" title="Plan du site">Plan du site</a></li>
     </ul>
   </footer>
 
